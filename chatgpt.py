@@ -1,4 +1,5 @@
 import openai
+import os
 openai.api_key = os.getenv("CHATGPT_KEY")
 topic = "beer"
 words = 500
